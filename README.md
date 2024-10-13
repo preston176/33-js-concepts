@@ -47,7 +47,7 @@ Tafsiri zote za hifadhi hii zitaorodheshwa hapa chini:
 - [አማርኛ (Ethiopian)](https://github.com/hmhard/33-js-concepts) - Miniyahil Kebede(ምንያህል ከበደ)
 - [Беларуская мова (Belarussian)](https://github.com/Yafimau/33-js-concepts) — Dzianis Yafimau
 - [O'zbekcha (Uzbek)](https://github.com/smnv-shokh/33-js-concepts) — Shokhrukh Usmonov
-- [Urdu (اردو)](https://github.com/yasir2002/33-js-concepts) — Yasir Nawaz
+- [Urdu (اردو)](https://github.com/sudoyasir/33-js-concepts) — Yasir Nawaz
 - [Marathi (मराठी)](https://github.com/dhruvchandak30/33-js-concepts) - Dhruv Chandak
 - [हिन्दी (Hindi)](https://github.com/milostivyy/33-js-concepts) — Mahima Chauhan
 - [বাংলা (Bengali)](https://github.com/Jisan-mia/33-js-concepts) — Jisan Mia
@@ -58,7 +58,8 @@ Tafsiri zote za hifadhi hii zitaorodheshwa hapa chini:
 - [தமிழ் (Tamil)](https://github.com/Jaimin25/33-js-concepts) - Jaimin Chovatia
 - [Latin (Latin)](https://github.com/Harshdev098/33-js-concepts) — Harsh Dev Pathak
 - [മലയാളം (Malayalam)](https://github.com/Stark-Akshay/33-js-concepts) — Akshay Manoj
-- [עברית‎ (Hebrew)](https://github.com/rafyzg/33-js-concepts) — Refael Yzgeav
+- [Yorùbá (Yoruba)](https://github.com/ayobaj/33-js-concepts) - Ayomide Bajulaye
+- [עברית‎ (Hebrew)](https://github.com/rafyzg/33-js-concepts) — Refael Yzgea
 
 ---
 ## <img  align= center width=50px height=50px src="https://media4.giphy.com/media/3hoLIVAJYkz6T0Ichp/giphy.gif?cid=6c09b952m4j3poopinf91rquev6qy4e8avu0bflq1e0vh4gp&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=s"> <a id="table-of-contents">Table of Contents</a>
@@ -225,6 +226,13 @@ Tafsiri zote za hifadhi hii zitaorodheshwa hapa chini:
 ---
 
 ## 5. == vs === vs typeof
+ According to the ECMAScript specification, JavaScript includes both strict (===) and loose (==) equality operators, which behave differently when comparing values. Here's a breakdown:
+
+== (Loose Equality): This operator performs type coercion before comparing two values. If the values are of different types, JavaScript will attempt to convert one or both values to a common type before comparison, which can lead to unexpected results.
+
+=== (Strict Equality): This operator compares both the value and the type without any type coercion. If the two values are not of the same type, the comparison will return false.
+
+typeof Operator: The typeof operator is used to check the data type of a variable. While it's generally reliable, there are certain quirks, like how typeof null returns "object" instead of "null", due to a long-standing behavior in JavaScript's implementation.
 
 ### <img  align= center width=40px height=40px src="https://cdn-icons-png.flaticon.com/512/1945/1945940.png"> Makala
 
